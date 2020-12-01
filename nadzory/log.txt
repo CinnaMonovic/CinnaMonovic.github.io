@@ -1,0 +1,7 @@
+
+
+To change:
+
+- bottom paddings for separate elements (Uslugi) [small devices]
+
+- proper lining up of contact info (phone, email [small devices]
