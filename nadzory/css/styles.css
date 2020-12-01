@@ -54,7 +54,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section{
   display: block;
 }
 
@@ -10007,12 +10007,13 @@ p {
 }
 
 .page-section {
-  padding: 6rem 0;
+  padding: 4rem 0;
 }
 .page-section h2.section-heading {
   font-size: 2.5rem;
   margin-top: 0;
   margin-bottom: 1rem;
+  color: black;
 }
 .page-section h3.section-subheading {
   font-size: 14pt;
@@ -10138,7 +10139,6 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
-  text-align: center;
   color: #fff;
   background-image: url("../assets/img/header-bg.jpg");
   background-repeat: no-repeat;
@@ -10448,16 +10448,16 @@ header.masthead .masthead-heading {
   margin-bottom: 0;
 }
 
-#contact-icons {
+.contact-icons {
   text-align: right;
 
 
 }
 
-#contact-info{
+.contact-info{
   text-align: left;
   font-weight: normal;
-  font-size: 12pt;
+  font-size: 14pt;
 }
 
 section#contact {
@@ -10525,4 +10525,52 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-weight:600;
   font-size: 20px;
   height: 100px;
+}
+
+#lista-realizacji {
+    width: 100wv;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+/*    margin-right: -30%;
+    margin-left: -30%; */
+}
+
+.container-full-width {
+  width: 100%;
+  padding-right: 0rem;
+  padding-left: 0rem;
+  margin-right: 0;
+  margin-left: 0;
+}
+.controls-top {
+  text-align: center;
+  font-size: 30px;
+}
+
+.card-title {
+  color: black;
+}
+
+.card-text {
+  color: black;
+}
+
+.carousel-item {
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+  font-size: 50px;
+  background-color: black;
+  height: 8px;
+  width: 50px;
+}
+
+ol.carousel-indicators li.active {
+  background-color: #fed136;
 }
